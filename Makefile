@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	pytest --disable-warnings test_app.py
+	pytest --disable-warnings test_hello.py
 
 
 
